@@ -3,7 +3,7 @@
 Sample code for an article 'Real-Time Layered Materials Compositing
 Using Spatial Clustering Encoding' by Sergey Makeev
 
-![Demo Screenshot](https://raw.githubusercontent.com/SergeyMakeev/SpatialEncoding/master/Image/DemoScreen.png)
+![Demo Screenshot](https://raw.githubusercontent.com/SergeyMakeev/GpuZen2/master/Image/DemoScreen.png)
 
 Please find precompiled demo in Releases https://github.com/SergeyMakeev/GpuZen2/releases
 
