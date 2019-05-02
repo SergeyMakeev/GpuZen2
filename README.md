@@ -5,7 +5,7 @@ Using Spatial Clustering Encoding' by Sergey Makeev
 
 ![Demo Screenshot](https://raw.githubusercontent.com/SergeyMakeev/GpuZen2/master/Image/DemoScreen.png)
 
-Please find precompiled demo in Releases https://github.com/SergeyMakeev/GpuZen2/releases
+Please find precompiled demo in here https://github.com/SergeyMakeev/GpuZen2/releases
 
 ## License:
 
