@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceb52257109bff4ea2c3fe6fd74a2b9, type: 3}
+  m_Name: MultiMat
+  m_EditorClassIdentifier: 
+  layers:
+  - layerName: base_007FFF
+    layerKey: base_007FFF
+    material: {fileID: 2100000, guid: 5a736e8ce8796314a96869ec6a298440, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 13000000
+  - layerName: base_00FF00
+    layerKey: base_00FF00
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 18000000
+  - layerName: base_FF0000
+    layerKey: base_FF0000
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 09000000
+  - layerName: base_FF007F
+    layerKey: base_FF007F
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 27000000
+  - layerName: base_FF7F00
+    layerKey: base_FF7F00
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 1d000000
+  - layerName: base_FFFF00
+    layerKey: base_FFFF00
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 22000000
+  - layerName: BasePaint
+    layerKey: BasePaint
+    material: {fileID: 2100000, guid: 8398fd49115bc2c42bea52ffeb6bf2ad, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 0.06
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 0600000010000000150000001a0000001f00000024000000
+  - layerName: Dirt
+    layerKey: Dirt
+    material: {fileID: 2100000, guid: 364831032d4686749aa5398162b481db, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 050000000a0000000f00000014000000190000001e00000023000000
+  - layerName: RubberRaw
+    layerKey: RubberRaw
+    material: {fileID: 2100000, guid: 5a736e8ce8796314a96869ec6a298440, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 12000000
+  - layerName: Scratch
+    layerKey: Scratch
+    material: {fileID: 2100000, guid: d9d0641a90c13854ba53a107ddf12a28, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 070000000b00000011000000160000001b0000002000000025000000
+  - layerName: Seams
+    layerKey: Seams
+    material: {fileID: 2100000, guid: b982e86ea6e84704c87bde3bcf3979d4, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 08000000170000001c00000021000000
+  color: {r: 0, g: 0, b: 1, a: 1}
+  sourceDescriptionXml: E:/Work/AW/TankShowRoomFINAL/Assets/LayeredMaterials/ArmoredWarfare/C1/Hull/ID.xml
+  normalMap: {fileID: 2800000, guid: 287495896629326459ac8b60d60ebf90, type: 3}
+  indirectionMap: {fileID: 2800000, guid: 1096eff8ce23b9849859b21043b37c44, type: 3}
+  weightsMap: {fileID: 2800000, guid: 2fd26e1e589f04343bf4217b98e439c4, type: 3}
+  ambientMap: {fileID: 2800000, guid: 4d7509f73abfde64382ee34c92e7c67c, type: 3}
+  alphaMap: {fileID: 0}
+  isAlphaTested: 0
+  ambientCorrection: 1
+  textureArrayNormals: {fileID: 18700000, guid: c4dc8495e80a1384ab256ef2f13c654b,
+    type: 2}
+  textureArraySurface: {fileID: 18700000, guid: 8175e6f34cef6934bb29106ce757f2a6,
+    type: 2}

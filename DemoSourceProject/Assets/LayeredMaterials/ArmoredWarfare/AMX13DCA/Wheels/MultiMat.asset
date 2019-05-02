@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceb52257109bff4ea2c3fe6fd74a2b9, type: 3}
+  m_Name: MultiMat
+  m_EditorClassIdentifier: 
+  layers:
+  - layerName: base_00FFFF
+    layerKey: base_00FFFF
+    material: {fileID: 2100000, guid: 5a736e8ce8796314a96869ec6a298440, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 0.35
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 09000000
+  - layerName: base_FF0000
+    layerKey: base_FF0000
+    material: {fileID: 2100000, guid: a4ada8860c8d88f4a95ee696a70f2307, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 0e000000
+  - layerName: BasePaint
+    layerKey: BasePaint
+    material: {fileID: 2100000, guid: 8398fd49115bc2c42bea52ffeb6bf2ad, type: 2}
+    albedoAlpha: 3.33
+    surfaceAlpha: 1.12
+    normalsAlpha: 1
+    globalAlpha: 1.17
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 0b000000
+  - layerName: Dirt
+    layerKey: Dirt
+    material: {fileID: 2100000, guid: 364831032d4686749aa5398162b481db, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 0.97
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 050000000a000000
+  - layerName: RubberRaw
+    layerKey: RubberRaw
+    material: {fileID: 2100000, guid: 5a736e8ce8796314a96869ec6a298440, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 07000000
+  - layerName: Scratch
+    layerKey: Scratch
+    material: {fileID: 2100000, guid: d9d0641a90c13854ba53a107ddf12a28, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 060000000c000000
+  color: {r: 0, g: 0, b: 1, a: 1}
+  sourceDescriptionXml: E:/Work/AW/TankShowRoomFINAL/Assets/LayeredMaterials/ArmoredWarfare/AMX13DCA/Wheels/ID.xml
+  normalMap: {fileID: 2800000, guid: 5a144b653617adc4db46c6af321564e9, type: 3}
+  indirectionMap: {fileID: 2800000, guid: 0612e710b241bb9469b12af63e2aca2d, type: 3}
+  weightsMap: {fileID: 2800000, guid: 7a5973ebdcce6d149b8bcf089d2b6426, type: 3}
+  ambientMap: {fileID: 2800000, guid: 40b6f4079b4a1314d8f139a8c3e192c5, type: 3}
+  alphaMap: {fileID: 0}
+  isAlphaTested: 0
+  ambientCorrection: 1
+  textureArrayNormals: {fileID: 18700000, guid: c4dc8495e80a1384ab256ef2f13c654b,
+    type: 2}
+  textureArraySurface: {fileID: 18700000, guid: 8175e6f34cef6934bb29106ce757f2a6,
+    type: 2}

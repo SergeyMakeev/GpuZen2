@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceb52257109bff4ea2c3fe6fd74a2b9, type: 3}
+  m_Name: MultiMat
+  m_EditorClassIdentifier: 
+  layers:
+  - layerName: base_00FF00
+    layerKey: base_00FF00
+    material: {fileID: 2100000, guid: 3a954df2df2da4341a2b981f56100e38, type: 2}
+    albedoAlpha: 10
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 09000000
+  - layerName: base_FF0000
+    layerKey: base_FF0000
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 18000000
+  - layerName: base_FF00FF
+    layerKey: base_FF00FF
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 13000000
+  - layerName: base_FF7F00
+    layerKey: base_FF7F00
+    material: {fileID: 2100000, guid: ccaad209f1723fb489636c0f80be700c, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 0e000000
+  - layerName: BasePaint
+    layerKey: BasePaint
+    material: {fileID: 2100000, guid: 8398fd49115bc2c42bea52ffeb6bf2ad, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 060000000b0000001000000015000000
+  - layerName: Dirt
+    layerKey: Dirt
+    material: {fileID: 2100000, guid: 364831032d4686749aa5398162b481db, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 050000000a0000000f00000014000000
+  - layerName: Scratch
+    layerKey: Scratch
+    material: {fileID: 2100000, guid: d9d0641a90c13854ba53a107ddf12a28, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 070000000c0000001100000016000000
+  - layerName: Seams
+    layerKey: Seams
+    material: {fileID: 2100000, guid: b982e86ea6e84704c87bde3bcf3979d4, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 0d0000001200000017000000
+  color: {r: 0, g: 0, b: 1, a: 1}
+  sourceDescriptionXml: E:/Work/AW/TankShowRoomFINAL/Assets/LayeredMaterials/ArmoredWarfare/C1/Turret/ID.xml
+  normalMap: {fileID: 2800000, guid: dfce9cdd93dbc68488c2590699d0d921, type: 3}
+  indirectionMap: {fileID: 2800000, guid: 282c017db7ce9bc43865b3c13ef04c3d, type: 3}
+  weightsMap: {fileID: 2800000, guid: 0bf21b1ae315d8e4b90f85b79b020f8e, type: 3}
+  ambientMap: {fileID: 2800000, guid: 326449b599f9a26459f6e9eac7b60a25, type: 3}
+  alphaMap: {fileID: 0}
+  isAlphaTested: 0
+  ambientCorrection: 1.25
+  textureArrayNormals: {fileID: 18700000, guid: c4dc8495e80a1384ab256ef2f13c654b,
+    type: 2}
+  textureArraySurface: {fileID: 18700000, guid: 8175e6f34cef6934bb29106ce757f2a6,
+    type: 2}

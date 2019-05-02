@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<Palettes>
+  <Palette id="1">
+    <Layer name="Dirt.tga" />
+    <Layer name="BasePaint.tga" />
+    <Layer name="Scratch.tga" />
+    <Layer name="RubberRaw.tga" />
+    <BaseLayer name="base_00FFFF" />
+  </Palette>
+  <Palette id="2">
+    <Layer name="Dirt.tga" />
+    <Layer name="BasePaint.tga" />
+    <Layer name="Scratch.tga" />
+    <Layer name="RubberRaw.tga" />
+    <BaseLayer name="base_FF0000" />
+  </Palette>
+<!-->
+Shader Code
+
+
+// bad palette index
+//////////////////////////////////////////////////////////////////////
+
+palettes[0].m0.color = float4(1, 0, 0, 1);
+palettes[0].m0.glossiness = 1;
+palettes[0].m0.metallic = 1;
+palettes[0].i0 = 0;
+
+palettes[0].m1.color = float4(1, 0, 0, 1);
+palettes[0].m1.glossiness = 1;
+palettes[0].m1.metallic = 1;
+palettes[0].i1 = 0;
+
+palettes[0].m2.color = float4(1, 0, 0, 1);
+palettes[0].m2.glossiness = 1;
+palettes[0].m2.metallic = 1;
+palettes[0].i2 = 0;
+
+palettes[0].m3.color = float4(1, 0, 0, 1);
+palettes[0].m3.glossiness = 1;
+palettes[0].m3.metallic = 1;
+palettes[0].i3 = 0;
+
+palettes[0].m4.color = float4(1, 0, 0, 1);
+palettes[0].m4.glossiness = 1;
+palettes[0].m4.metallic = 1;
+palettes[0].i4 = 0;
+
+// palette 0
+//////////////////////////////////////////////////////////////////////
+
+// source layer 'Dirt.tga'
+palettes[1].m0.color = _Color1;
+palettes[1].m0.glossiness = _Glossiness1;
+palettes[1].m0.metallic = _Metallic1;
+palettes[1].i0 = 1;
+
+// source layer 'BasePaint.tga'
+palettes[1].m1.color = _Color2;
+palettes[1].m1.glossiness = _Glossiness2;
+palettes[1].m1.metallic = _Metallic2;
+palettes[1].i1 = 2;
+
+// source layer 'Scratch.tga'
+palettes[1].m2.color = _Color3;
+palettes[1].m2.glossiness = _Glossiness3;
+palettes[1].m2.metallic = _Metallic3;
+palettes[1].i2 = 3;
+
+// source layer 'RubberRaw.tga'
+palettes[1].m3.color = _Color4;
+palettes[1].m3.glossiness = _Glossiness4;
+palettes[1].m3.metallic = _Metallic4;
+palettes[1].i3 = 4;
+
+// source layer = base layer'
+palettes[1].m4.color = _Color0;
+palettes[1].m4.glossiness = _Glossiness0;
+palettes[1].m4.metallic = _Metallic0;
+palettes[1].i4 = 0;
+
+// palette 1
+//////////////////////////////////////////////////////////////////////
+
+// source layer 'Dirt.tga'
+palettes[2].m0.color = _Color1;
+palettes[2].m0.glossiness = _Glossiness1;
+palettes[2].m0.metallic = _Metallic1;
+palettes[2].i0 = 1;
+
+// source layer 'BasePaint.tga'
+palettes[2].m1.color = _Color2;
+palettes[2].m1.glossiness = _Glossiness2;
+palettes[2].m1.metallic = _Metallic2;
+palettes[2].i1 = 2;
+
+// source layer 'Scratch.tga'
+palettes[2].m2.color = _Color3;
+palettes[2].m2.glossiness = _Glossiness3;
+palettes[2].m2.metallic = _Metallic3;
+palettes[2].i2 = 3;
+
+// source layer 'RubberRaw.tga'
+palettes[2].m3.color = _Color4;
+palettes[2].m3.glossiness = _Glossiness4;
+palettes[2].m3.metallic = _Metallic4;
+palettes[2].i3 = 4;
+
+// source layer = base layer'
+palettes[2].m4.color = _Color0;
+palettes[2].m4.glossiness = _Glossiness0;
+palettes[2].m4.metallic = _Metallic0;
+palettes[2].i4 = 0;
+
+// palette 2
+//////////////////////////////////////////////////////////////////////
+
+palettes[3].m0.color = 0;
+palettes[3].m0.glossiness = 0;
+palettes[3].m0.metallic = 0;
+palettes[3].i0 = 0;
+
+palettes[3].m1.color = 0;
+palettes[3].m1.glossiness = 0;
+palettes[3].m1.metallic = 0;
+palettes[3].i1 = 0;
+
+palettes[3].m2.color = 0;
+palettes[3].m2.glossiness = 0;
+palettes[3].m2.metallic = 0;
+palettes[3].i2 = 0;
+
+palettes[3].m3.color = 0;
+palettes[3].m3.glossiness = 0;
+palettes[3].m3.metallic = 0;
+palettes[3].i3 = 0;
+
+palettes[3].m4.color = 0;
+palettes[3].m4.glossiness = 0;
+palettes[3].m4.metallic = 0;
+palettes[3].i4 = 0;
+
+// palette 3
+//////////////////////////////////////////////////////////////////////
+
+palettes[4].m0.color = 0;
+palettes[4].m0.glossiness = 0;
+palettes[4].m0.metallic = 0;
+palettes[4].i0 = 0;
+
+palettes[4].m1.color = 0;
+palettes[4].m1.glossiness = 0;
+palettes[4].m1.metallic = 0;
+palettes[4].i1 = 0;
+
+palettes[4].m2.color = 0;
+palettes[4].m2.glossiness = 0;
+palettes[4].m2.metallic = 0;
+palettes[4].i2 = 0;
+
+palettes[4].m3.color = 0;
+palettes[4].m3.glossiness = 0;
+palettes[4].m3.metallic = 0;
+palettes[4].i3 = 0;
+
+palettes[4].m4.color = 0;
+palettes[4].m4.glossiness = 0;
+palettes[4].m4.metallic = 0;
+palettes[4].i4 = 0;
+
+// palette 4
+//////////////////////////////////////////////////////////////////////
+
+palettes[5].m0.color = 0;
+palettes[5].m0.glossiness = 0;
+palettes[5].m0.metallic = 0;
+palettes[5].i0 = 0;
+
+palettes[5].m1.color = 0;
+palettes[5].m1.glossiness = 0;
+palettes[5].m1.metallic = 0;
+palettes[5].i1 = 0;
+
+palettes[5].m2.color = 0;
+palettes[5].m2.glossiness = 0;
+palettes[5].m2.metallic = 0;
+palettes[5].i2 = 0;
+
+palettes[5].m3.color = 0;
+palettes[5].m3.glossiness = 0;
+palettes[5].m3.metallic = 0;
+palettes[5].i3 = 0;
+
+palettes[5].m4.color = 0;
+palettes[5].m4.glossiness = 0;
+palettes[5].m4.metallic = 0;
+palettes[5].i4 = 0;
+
+// palette 5
+//////////////////////////////////////////////////////////////////////
+
+palettes[6].m0.color = 0;
+palettes[6].m0.glossiness = 0;
+palettes[6].m0.metallic = 0;
+palettes[6].i0 = 0;
+
+palettes[6].m1.color = 0;
+palettes[6].m1.glossiness = 0;
+palettes[6].m1.metallic = 0;
+palettes[6].i1 = 0;
+
+palettes[6].m2.color = 0;
+palettes[6].m2.glossiness = 0;
+palettes[6].m2.metallic = 0;
+palettes[6].i2 = 0;
+
+palettes[6].m3.color = 0;
+palettes[6].m3.glossiness = 0;
+palettes[6].m3.metallic = 0;
+palettes[6].i3 = 0;
+
+palettes[6].m4.color = 0;
+palettes[6].m4.glossiness = 0;
+palettes[6].m4.metallic = 0;
+palettes[6].i4 = 0;
+
+// palette 6
+//////////////////////////////////////////////////////////////////////
+
+palettes[7].m0.color = 0;
+palettes[7].m0.glossiness = 0;
+palettes[7].m0.metallic = 0;
+palettes[7].i0 = 0;
+
+palettes[7].m1.color = 0;
+palettes[7].m1.glossiness = 0;
+palettes[7].m1.metallic = 0;
+palettes[7].i1 = 0;
+
+palettes[7].m2.color = 0;
+palettes[7].m2.glossiness = 0;
+palettes[7].m2.metallic = 0;
+palettes[7].i2 = 0;
+
+palettes[7].m3.color = 0;
+palettes[7].m3.glossiness = 0;
+palettes[7].m3.metallic = 0;
+palettes[7].i3 = 0;
+
+palettes[7].m4.color = 0;
+palettes[7].m4.glossiness = 0;
+palettes[7].m4.metallic = 0;
+palettes[7].i4 = 0;
+
+// palette 7
+//////////////////////////////////////////////////////////////////////
+
+palettes[8].m0.color = 0;
+palettes[8].m0.glossiness = 0;
+palettes[8].m0.metallic = 0;
+palettes[8].i0 = 0;
+
+palettes[8].m1.color = 0;
+palettes[8].m1.glossiness = 0;
+palettes[8].m1.metallic = 0;
+palettes[8].i1 = 0;
+
+palettes[8].m2.color = 0;
+palettes[8].m2.glossiness = 0;
+palettes[8].m2.metallic = 0;
+palettes[8].i2 = 0;
+
+palettes[8].m3.color = 0;
+palettes[8].m3.glossiness = 0;
+palettes[8].m3.metallic = 0;
+palettes[8].i3 = 0;
+
+palettes[8].m4.color = 0;
+palettes[8].m4.glossiness = 0;
+palettes[8].m4.metallic = 0;
+palettes[8].i4 = 0;
+
+// palette 8
+//////////////////////////////////////////////////////////////////////
+
+palettes[9].m0.color = 0;
+palettes[9].m0.glossiness = 0;
+palettes[9].m0.metallic = 0;
+palettes[9].i0 = 0;
+
+palettes[9].m1.color = 0;
+palettes[9].m1.glossiness = 0;
+palettes[9].m1.metallic = 0;
+palettes[9].i1 = 0;
+
+palettes[9].m2.color = 0;
+palettes[9].m2.glossiness = 0;
+palettes[9].m2.metallic = 0;
+palettes[9].i2 = 0;
+
+palettes[9].m3.color = 0;
+palettes[9].m3.glossiness = 0;
+palettes[9].m3.metallic = 0;
+palettes[9].i3 = 0;
+
+palettes[9].m4.color = 0;
+palettes[9].m4.glossiness = 0;
+palettes[9].m4.metallic = 0;
+palettes[9].i4 = 0;
+
+// palette 9
+//////////////////////////////////////////////////////////////////////
+
+palettes[10].m0.color = 0;
+palettes[10].m0.glossiness = 0;
+palettes[10].m0.metallic = 0;
+palettes[10].i0 = 0;
+
+palettes[10].m1.color = 0;
+palettes[10].m1.glossiness = 0;
+palettes[10].m1.metallic = 0;
+palettes[10].i1 = 0;
+
+palettes[10].m2.color = 0;
+palettes[10].m2.glossiness = 0;
+palettes[10].m2.metallic = 0;
+palettes[10].i2 = 0;
+
+palettes[10].m3.color = 0;
+palettes[10].m3.glossiness = 0;
+palettes[10].m3.metallic = 0;
+palettes[10].i3 = 0;
+
+palettes[10].m4.color = 0;
+palettes[10].m4.glossiness = 0;
+palettes[10].m4.metallic = 0;
+palettes[10].i4 = 0;
+
+// palette 10
+//////////////////////////////////////////////////////////////////////
+
+palettes[11].m0.color = 0;
+palettes[11].m0.glossiness = 0;
+palettes[11].m0.metallic = 0;
+palettes[11].i0 = 0;
+
+palettes[11].m1.color = 0;
+palettes[11].m1.glossiness = 0;
+palettes[11].m1.metallic = 0;
+palettes[11].i1 = 0;
+
+palettes[11].m2.color = 0;
+palettes[11].m2.glossiness = 0;
+palettes[11].m2.metallic = 0;
+palettes[11].i2 = 0;
+
+palettes[11].m3.color = 0;
+palettes[11].m3.glossiness = 0;
+palettes[11].m3.metallic = 0;
+palettes[11].i3 = 0;
+
+palettes[11].m4.color = 0;
+palettes[11].m4.glossiness = 0;
+palettes[11].m4.metallic = 0;
+palettes[11].i4 = 0;
+
+// palette 11
+//////////////////////////////////////////////////////////////////////
+
+palettes[12].m0.color = 0;
+palettes[12].m0.glossiness = 0;
+palettes[12].m0.metallic = 0;
+palettes[12].i0 = 0;
+
+palettes[12].m1.color = 0;
+palettes[12].m1.glossiness = 0;
+palettes[12].m1.metallic = 0;
+palettes[12].i1 = 0;
+
+palettes[12].m2.color = 0;
+palettes[12].m2.glossiness = 0;
+palettes[12].m2.metallic = 0;
+palettes[12].i2 = 0;
+
+palettes[12].m3.color = 0;
+palettes[12].m3.glossiness = 0;
+palettes[12].m3.metallic = 0;
+palettes[12].i3 = 0;
+
+palettes[12].m4.color = 0;
+palettes[12].m4.glossiness = 0;
+palettes[12].m4.metallic = 0;
+palettes[12].i4 = 0;
+
+// palette 12
+//////////////////////////////////////////////////////////////////////
+
+palettes[13].m0.color = 0;
+palettes[13].m0.glossiness = 0;
+palettes[13].m0.metallic = 0;
+palettes[13].i0 = 0;
+
+palettes[13].m1.color = 0;
+palettes[13].m1.glossiness = 0;
+palettes[13].m1.metallic = 0;
+palettes[13].i1 = 0;
+
+palettes[13].m2.color = 0;
+palettes[13].m2.glossiness = 0;
+palettes[13].m2.metallic = 0;
+palettes[13].i2 = 0;
+
+palettes[13].m3.color = 0;
+palettes[13].m3.glossiness = 0;
+palettes[13].m3.metallic = 0;
+palettes[13].i3 = 0;
+
+palettes[13].m4.color = 0;
+palettes[13].m4.glossiness = 0;
+palettes[13].m4.metallic = 0;
+palettes[13].i4 = 0;
+
+// palette 13
+//////////////////////////////////////////////////////////////////////
+
+palettes[14].m0.color = 0;
+palettes[14].m0.glossiness = 0;
+palettes[14].m0.metallic = 0;
+palettes[14].i0 = 0;
+
+palettes[14].m1.color = 0;
+palettes[14].m1.glossiness = 0;
+palettes[14].m1.metallic = 0;
+palettes[14].i1 = 0;
+
+palettes[14].m2.color = 0;
+palettes[14].m2.glossiness = 0;
+palettes[14].m2.metallic = 0;
+palettes[14].i2 = 0;
+
+palettes[14].m3.color = 0;
+palettes[14].m3.glossiness = 0;
+palettes[14].m3.metallic = 0;
+palettes[14].i3 = 0;
+
+palettes[14].m4.color = 0;
+palettes[14].m4.glossiness = 0;
+palettes[14].m4.metallic = 0;
+palettes[14].i4 = 0;
+
+// palette 14
+//////////////////////////////////////////////////////////////////////
+
+palettes[15].m0.color = 0;
+palettes[15].m0.glossiness = 0;
+palettes[15].m0.metallic = 0;
+palettes[15].i0 = 0;
+
+palettes[15].m1.color = 0;
+palettes[15].m1.glossiness = 0;
+palettes[15].m1.metallic = 0;
+palettes[15].i1 = 0;
+
+palettes[15].m2.color = 0;
+palettes[15].m2.glossiness = 0;
+palettes[15].m2.metallic = 0;
+palettes[15].i2 = 0;
+
+palettes[15].m3.color = 0;
+palettes[15].m3.glossiness = 0;
+palettes[15].m3.metallic = 0;
+palettes[15].i3 = 0;
+
+palettes[15].m4.color = 0;
+palettes[15].m4.glossiness = 0;
+palettes[15].m4.metallic = 0;
+palettes[15].i4 = 0;
+<-->
+</Palettes>

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceb52257109bff4ea2c3fe6fd74a2b9, type: 3}
+  m_Name: MultiMat
+  m_EditorClassIdentifier: 
+  layers:
+  - layerName: base_FF00FF
+    layerKey: base_FF00FF
+    material: {fileID: 2100000, guid: b88118206176f744185395d82a72fbb5, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 09000000
+  - layerName: Dirt
+    layerKey: Dirt
+    material: {fileID: 2100000, guid: 364831032d4686749aa5398162b481db, type: 2}
+    albedoAlpha: 2.38
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 0.79
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 05000000
+  - layerName: IDColor2
+    layerKey: IDColor2
+    material: {fileID: 2100000, guid: 5a736e8ce8796314a96869ec6a298440, type: 2}
+    albedoAlpha: 1
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 06000000
+  - layerName: Scratch
+    layerKey: Scratch
+    material: {fileID: 2100000, guid: d9d0641a90c13854ba53a107ddf12a28, type: 2}
+    albedoAlpha: 9.37
+    surfaceAlpha: 1
+    normalsAlpha: 1
+    globalAlpha: 1
+    globalOffset: 0
+    globalNormalScale: 1
+    surfaceRotation: 0
+    normalsRotation: 0
+    targetSlots: 07000000
+  color: {r: 0, g: 0, b: 1, a: 1}
+  sourceDescriptionXml: E:/Work/AW/TankShowRoomFINAL/Assets/LayeredMaterials/ArmoredWarfare/AMX13DCA/Tracks/ID.xml
+  normalMap: {fileID: 2800000, guid: fa16f46529dc33343a5db05b86561f14, type: 3}
+  indirectionMap: {fileID: 2800000, guid: 81c2fab61f4436b4d94920aa952b71f0, type: 3}
+  weightsMap: {fileID: 2800000, guid: 326567fa3a382c5428b813ea1db60c19, type: 3}
+  ambientMap: {fileID: 2800000, guid: 6967a31569564f04d84984b6c6288cc9, type: 3}
+  alphaMap: {fileID: 2800000, guid: 004601d906489894f8205676ca1138e9, type: 3}
+  isAlphaTested: 1
+  ambientCorrection: 1
+  textureArrayNormals: {fileID: 18700000, guid: c4dc8495e80a1384ab256ef2f13c654b,
+    type: 2}
+  textureArraySurface: {fileID: 18700000, guid: 8175e6f34cef6934bb29106ce757f2a6,
+    type: 2}
