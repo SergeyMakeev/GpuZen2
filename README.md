@@ -1,6 +1,6 @@
 ## Introduction:
 
-Sample code for an article 'Real-Time Layered Materials Compositing
+Sample code for the article 'Real-Time Layered Materials Compositing
 Using Spatial Clustering Encoding' by Sergey Makeev
 
 ![Demo Screenshot](https://raw.githubusercontent.com/SergeyMakeev/GpuZen2/master/Image/DemoScreen.png)
