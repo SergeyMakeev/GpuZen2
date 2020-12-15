@@ -1,0 +1,15 @@
+{
+  "maxMipLevel": 3,
+  "maxLocalLayersCount": 5,
+  "sourceColorID": "IDColor.tga",
+  "sourceLayers": [
+    "Dirt.tga",
+    "BasePaint.tga",
+    "Scratch.tga",
+    "RubberRaw.tga"
+  ],
+  "sourceLayersWeights": "IDColor.tga",
+  "descriptionFile": "a.json",
+  "indirectMapFile": "a_i.tga",
+  "weightsMapFile": "a_w.tga"
+}
