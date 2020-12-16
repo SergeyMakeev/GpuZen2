@@ -2,6 +2,9 @@
 Encoder/bin/**
 Encoder/obj/**
 Encoder/.vs/**
+AtlasAssembler/bin/**
+AtlasAssembler/obj/**
+AtlasAssembler/.vs/**
 
 
 # Ignore NuGet Packages
