@@ -58,22 +58,47 @@ namespace AtlasAssembler
         public bool compareHeaders(DDSFile other)
         {
             if (width != other.width)
+            {
+                Console.WriteLine("width: {0} != {1}", width, other.width);
                 return false;
+            }
 
             if (height != other.height)
+            {
+                Console.WriteLine("height: {0} != {1}", height, other.height);
                 return false;
+            }
 
             if (mipMapCount != other.mipMapCount)
+            {
+                Console.WriteLine("mipMapCount: {0} != {1}", mipMapCount, other.mipMapCount);
                 return false;
+            }
 
             if (depth != other.depth)
+            {
+                Console.WriteLine("depth: {0} != {1}", depth, other.depth);
                 return false;
-
+            }
+            /*
             if (pitchOrLinearSize != other.pitchOrLinearSize)
+            {
+                Console.WriteLine("pitchOrLinearSize: {0} != {1}", pitchOrLinearSize, other.pitchOrLinearSize);
                 return false;
+            }
+            */
 
             if (ppf_fourCC != other.ppf_fourCC)
+            {
+                Console.WriteLine("ppf_fourCC: {0} != {1}", ppf_fourCC, other.ppf_fourCC);
                 return false;
+            }
+
+            if (payload.Length != other.payload.Length)
+            {
+                Console.WriteLine("payload.Length: {0} != {1}", payload.Length, other.payload.Length);
+                return false;
+            }
 
             return true;
         }
