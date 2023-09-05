@@ -1,0 +1,14 @@
+\begin{thebibliography}{99}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[Author~09]{Author09}
+James Author.
+\newblock \emph{Title of the Book}.
+\newblock City: Publisher, 2009.
+
+\bibitem[Smith and Doe~06]{SmithDoe}
+John Smith and Jane Doe.
+\newblock \enquote{The Title of Our Article.}
+\newblock \emph{Journal Title} 4:1 (2006), 15--30.
+
+\end{thebibliography}
